@@ -1,0 +1,27 @@
+{
+  "name": "taskbox-notification",
+  "scripts": {
+    "test": "NODE_ENV=test node --harmony taskbox-notification.js",
+    "generate": "node --harmony taskbox-notification.js",
+    "start": "node --harmony taskbox-notification.js"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "convict": "^1.4.0",
+    "cron": "^1.1.0",
+    "debug": "^2.2.0",
+    "denodeify": "^1.2.1",
+    "handlebars": "^4.0.5",
+    "koa": "^1.2.1",
+    "koa-route": "^2.4.2",
+    "koa-static": "^2.0.0",
+    "lodash": "^4.3.0",
+    "mkdirp": "^0.5.1",
+    "mkdirp-promise": "^1.0.3",
+    "moment": "^2.11.2",
+    "nodemailer": "^2.5.0",
+    "pretty-ms": "^2.1.0",
+    "timeparse": "^1.0.0",
+    "tingodb": "^0.4.2"
+  }
+}
