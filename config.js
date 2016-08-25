@@ -8,6 +8,12 @@ var conf = convict({
     default: "dev",
     env: "NODE_ENV"
   },
+  port: {
+    doc: "port",
+    format: "port",
+    default: "3000",
+    env: "PORT"
+  },
   task_db_path: {
     doc: "The path to taskdb",
     default: "/var/lib/taskbox-taskdb",
